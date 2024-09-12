@@ -1,0 +1,25 @@
+#relative{
+    background-color: hsl(93, 54%, 30%);
+    width:200px;
+    height: 200px;
+    position: relative;
+    top:1em;
+    left:10em;
+}
+#fixed
+{
+    background-color: hsl(16, 87%, 56%);
+    width:200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    
+}
+#absolute{
+    background-color: hsl(160, 78%, 39%);
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
