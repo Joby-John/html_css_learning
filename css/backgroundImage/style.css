@@ -1,0 +1,23 @@
+body
+{
+    background-image: url("pexels-ty-dg-2283625-3958980.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+#contents{
+    width:100vw;
+    padding: 0px;
+    margin:0;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: hsla(193, 68%, 32%, 0.158);
+}
+h1{
+    color: hsl(180, 21%, 19%);
+}
+p{
+    color: hsl(180, 84%, 47%);
+}

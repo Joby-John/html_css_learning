@@ -1,0 +1,18 @@
+#container{
+    border:2px solid;
+}
+
+#container p{
+    background-color: aquamarine;
+}
+#container > p{
+    color: blueviolet;
+}
+
+#container ~ p{
+    background-color: rgb(0, 247, 255);
+}
+
+#container + p{
+    color: red;
+}
