@@ -18,12 +18,16 @@ Vidyasagar
 </pre>
 </h3>
 
-<a target="_blank" href="https://youtu.be/_-EJSzPHR38?si=268XLNBrMVAmQv_4">
 <video src="videos/Ente Ellam Ellam Alle _ Lyrical Video Song _ Meesamadhavan _ Dileep _ Kavya Madhavan.mp4" width="400px" controls loop></video>
-</a>
 
 <br>
-<p>Ente Ellam Ellam Alle</p>
+<a target="_blank" href="https://youtu.be/_-EJSzPHR38?si=268XLNBrMVAmQv_4">
+    <button id = "YTbutton" style="background-color:hsl(0, 100%, 40%); border-radius: 25px; padding: 10px 20px; cursor: pointer;" onclick="changeButtonColor()">Watch on Youtube</button>
+</a>
+
+
+<br>
+<p id = "status">Ente Ellam Ellam Alle</p>
 <audio controls loop>
     <source src="music/Ente Ellam Ellam Alle Lyrical Video Song Meesamadhavan Dileep Kavya Madhavan.mp3" type="audio/mpeg">
     <!--To add fall back, in case first dont work usually second audio is sam song with fifferent format-->
@@ -87,6 +91,12 @@ Mayangan Enthanenthanu Enthanu
 (ente Ellam)
     </pre>
 
-    
+
+<script>
+    function changeButtonColor(){
+        document.getElementById("YTbutton").style.backgroundColor = "hsl(120, 100%, 40%)";  // Changes to green
+        document.getElementById("status").innerHTML = "Now playing in another tab"
+    }
+</script>
 </body>
 </html>
