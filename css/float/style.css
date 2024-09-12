@@ -1,0 +1,21 @@
+#outer
+{
+    height:400px;
+    width: 400px;
+    background-color:hsl(36, 60%, 64%);
+    
+}
+#inner{
+    height:100px;
+    width:100px;
+    background-color: rgb(224, 54, 54);
+    float:left;
+    margin-right: 10px;
+}
+#middle{
+    height:100px;
+    width:100px;
+    background-color: rgb(224, 54, 54);
+    float:right;
+    margin-left: 10px;
+}

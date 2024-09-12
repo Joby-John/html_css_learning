@@ -1,0 +1,27 @@
+@font-face {
+    src: url("../FontFiles/Genos/Genos.ttf");
+    font-family: Genos;
+}
+@font-face {
+    src: url(../FontFiles/Sofadi_One/SofadiOne.ttf);
+    font-family: sofadiOne;
+}
+
+
+
+
+h1{
+    font-family: verdana, arial, "Gill Sans";
+}
+#p1{
+    font-family: Genos,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+#p2
+{
+    font-family: sofadiOne, arial;
+    font-size: 1em;
+
+}

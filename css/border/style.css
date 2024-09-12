@@ -1,0 +1,14 @@
+h1{
+    border: 5px groove aliceblue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p{
+    border-top: 3px dotted hsl(233, 100%, 60%);
+    border-right: 3px ridge hsl(18, 56%, 18%);
+    border-bottom: 3px groove hsl(248, 57%, 18%);
+    border-left: 3px outset hsl(110, 81%, 37%);
+
+    border-radius: 10px;
+}
