@@ -23,7 +23,9 @@ a{
 
 @media screen and (max-width:600px) {
     .gallery{
+        margin-left:5%;
         display: block;
+        width:90%
     }
     
     
