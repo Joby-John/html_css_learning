@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+.gallery{
+    display: inline-block;
+    border: 2px ridge hsl(0, 9%, 52%);
+    margin:5px;
+    width: 200px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.gallery:hover{
+    border: 4px ridge hsl(0, 9%, 52%);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .gallery{
+        display: block;
+    }
+    
+    
+}
